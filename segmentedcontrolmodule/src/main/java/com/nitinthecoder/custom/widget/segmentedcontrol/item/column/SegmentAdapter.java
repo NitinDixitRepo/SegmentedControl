@@ -7,5 +7,4 @@ import section_layout.widget.custom.android.com.sectionlayout.distributive_secti
  */
 
 public abstract class SegmentAdapter<D, VH extends SegmentViewHolder<D>> extends DistributiveSectionLayout.Adapter<SegmentData<D>, VH> {
-
 }
