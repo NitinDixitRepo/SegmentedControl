@@ -1,28 +1,28 @@
 # Android SegmentedControl + multi row support + multi selection
-### minSdk API 14+
+### minSdk API 16+
 
-![N|Solid](https://raw.githubusercontent.com/RobertApikyan/SegmentedControl/release_v0.1/app/src/main/res/mipmap-hdpi/ic_launcher.png)
+![N|Solid](https://raw.githubusercontent.com/NitinDixitRepo/SegmentedControl/release_v0.1/app/src/main/res/mipmap-hdpi/ic_launcher.png)
 
 [Demo App, Play store link](https://play.google.com/store/apps/details?id=segmented_control.widget.custom.android.com.segmentedcontrolexample&hl=en)
 
 [Or try demo App online !](https://appetize.io/app/y4e91xhxgp47956bf73da4z4yg)
 
-[![](https://jitpack.io/v/nitin-thecoder/SegmentedControl.svg)](https://jitpack.io/#nitin-thecoder/SegmentedControl)
+[![](https://jitpack.io/v/NitinDixitRepo/SegmentedControl.svg)](https://jitpack.io/#NitinDixitRepo/SegmentedControl)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Segmented control for Android, with a lot of customization properties
 
-<img src="https://raw.githubusercontent.com/RobertApikyan/SegmentedControl/release_v0.1/docs/intro.gif.gif" width="300" height="525" />
+<img src="https://raw.githubusercontent.com/NitinDixitRepo/SegmentedControl/release_v0.1/docs/intro.gif.gif" width="300" height="525" />
 
 ## ScreenShots
 
-<img src="https://raw.githubusercontent.com/RobertApikyan/SegmentedControl/intro/intro/ezgif.com-optimize.gif" width="400" />
-<img src="https://raw.githubusercontent.com/RobertApikyan/SegmentedControl/release_v0.1/docs/device-2017-09-14-133621.png" width="400" />
-<img src="https://raw.githubusercontent.com/RobertApikyan/SegmentedControl/release_v0.1/docs/device-2017-09-14-133711.png" width="400" />
-<img src="https://raw.githubusercontent.com/RobertApikyan/SegmentedControl/release_v0.1/docs/device-2017-09-14-133736.png" width="400" />
-<img src="https://raw.githubusercontent.com/RobertApikyan/SegmentedControl/release_v0.1/docs/device-2017-09-14-133907.png" width="400" />
-<img src="https://raw.githubusercontent.com/RobertApikyan/SegmentedControl/release_v0.1/docs/device-2017-09-14-134003.png" width="400" />
-<img src="https://raw.githubusercontent.com/RobertApikyan/SegmentedControl/release_v0.1/docs/device-2017-09-14-202249.png" width="400" />
+<img src="https://raw.githubusercontent.com/NitinDixitRepo/SegmentedControl/intro/intro/ezgif.com-optimize.gif" width="400" />
+<img src="https://raw.githubusercontent.com/NitinDixitRepo/SegmentedControl/release_v0.1/docs/device-2017-09-14-133621.png" width="400" />
+<img src="https://raw.githubusercontent.com/NitinDixitRepo/SegmentedControl/release_v0.1/docs/device-2017-09-14-133711.png" width="400" />
+<img src="https://raw.githubusercontent.com/NitinDixitRepo/SegmentedControl/release_v0.1/docs/device-2017-09-14-133736.png" width="400" />
+<img src="https://raw.githubusercontent.com/NitinDixitRepo/SegmentedControl/release_v0.1/docs/device-2017-09-14-133907.png" width="400" />
+<img src="https://raw.githubusercontent.com/NitinDixitRepo/SegmentedControl/release_v0.1/docs/device-2017-09-14-134003.png" width="400" />
+<img src="https://raw.githubusercontent.com/NitinDixitRepo/SegmentedControl/release_v0.1/docs/device-2017-09-14-202249.png" width="400" />
 
 
 ## Download
@@ -36,10 +36,17 @@ allprojects {
     }
 }
 ```
+Add compileOptions to app module level build.gradle
+```groovy
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+```
 Add dependency to app module level build.gradle
 ```groovy
 dependencies {
-    implementation 'com.github.RobertApikyan:SegmentedControl:1.2.0'
+    implementation 'com.github.NitinDixitRepo:SegmentedControl:1.3.0'
 }
 ```
 ### Maven
@@ -54,9 +61,9 @@ dependencies {
 Add dependency
 ```xml
 <dependency>
-    <groupId>com.github.RobertApikyan</groupId>
+    <groupId>com.github.NitinDixitRepo</groupId>
     <artifactId>SegmentedControl</artifactId>
-    <version>1.1.3</version>
+    <version>1.3.0</version>
 </dependency>
 ```
 
